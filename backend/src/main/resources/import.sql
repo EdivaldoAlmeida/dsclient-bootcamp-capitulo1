@@ -1,5 +1,5 @@
-INSERT INTO TB_CLIENT (name, cpf, income, birth_Date, children) VALUES ('Matheus Antoni L. Almeida', '839.248.874-93', 3500.67, TIMESTAMP WITH TIME ZONE '2007-11-12T22:50:07.12345Z', 0);
-INSERT INTO TB_CLIENT (name, cpf, income, birth_Date, children) VALUES ('Thiago Wallace L. Almeida', '739.548.874-33', 4500.36, TIMESTAMP WITH TIME ZONE '2011-06-12T22:50:07.12345Z', 0);
-INSERT INTO TB_CLIENT (name, cpf, income, birth_Date, children) VALUES ('Antonia Maria L. Almeida', '939.948.874-73', 6500.40, TIMESTAMP WITH TIME ZONE '1999-07-07T22:50:07.12345Z', 2);
-INSERT INTO TB_CLIENT (name, cpf, income, birth_Date, children) VALUES ('Joana Dark', '939.948.874-53', 6500.40, TIMESTAMP WITH TIME ZONE '2000-04-07T22:50:07.12345Z', 4);
-INSERT INTO TB_CLIENT (name, cpf, income, birth_Date, children) VALUES ('Edivaldo Vieira Almeida', '535.848.894-66', 1000.00, TIMESTAMP WITH TIME ZONE '1978-02-01T22:50:07.12345Z', 2);
+INSERT INTO TB_CLIENT (name, cpf, income, birth_Date, children, created_At) VALUES ('Matheus Antoni L. Almeida', '839.248.874-93', 3500.67, TIMESTAMP WITH TIME ZONE '2007-11-12T22:50:07.12345Z', 0, NOW());
+INSERT INTO TB_CLIENT (name, cpf, income, birth_Date, children, created_At) VALUES ('Thiago Wallace L. Almeida', '739.548.874-33', 4500.36, TIMESTAMP WITH TIME ZONE '2011-06-12T22:50:07.12345Z', 0, NOW());
+INSERT INTO TB_CLIENT (name, cpf, income, birth_Date, children, created_At) VALUES ('Antonia Maria L. Almeida', '939.948.874-73', 6500.40, TIMESTAMP WITH TIME ZONE '1999-07-07T22:50:07.12345Z', 2, NOW());
+INSERT INTO TB_CLIENT (name, cpf, income, birth_Date, children, created_At) VALUES ('Joana Dark', '939.948.874-53', 6500.40, TIMESTAMP WITH TIME ZONE '2000-04-07T22:50:07.12345Z', 4, NOW());
+INSERT INTO TB_CLIENT (name, cpf, income, birth_Date, children, created_At) VALUES ('Edivaldo Vieira Almeida', '535.848.894-66', 1000.00, TIMESTAMP WITH TIME ZONE '1978-02-01T22:50:07.12345Z', 2, NOW());
